@@ -34,7 +34,7 @@ return array(
 
 3、Cert是证书文件,请保持文件名不变
 ```shell
-cd vendor/will/jwtsign/src/Will/Cert  #切换到对应的目录直接生成,或者生成以后拷贝
+cd vendor/will/jwt-sign/src/Will/Cert  #切换到对应的目录直接生成,或者生成以后拷贝
 openssl genrsa -out prvtkey.pem 1024 #生成私钥
 openssl rsa -in prvtkey.pem -out pubkey.key -pubout #导出公钥
 ```
