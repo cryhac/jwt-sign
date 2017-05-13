@@ -1,0 +1,22 @@
+{
+  "name": "will/jwt-sign",
+  "description": "sign base on jwt",
+  "type": "library",
+  "require": {
+    "namshi/jose": "^7.2",
+    "php": ">=5.5.9"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "will",
+      "email": "admin@rainoon.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Will\\": "src/Will"
+    }
+  },
+  "minimum-stability": "dev"
+}
